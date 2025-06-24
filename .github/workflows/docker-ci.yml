@@ -5,11 +5,6 @@ on:
     tags:     # Pattern matched against refs/tags
       - '*'   # Push events to every tag not containing /
 
-  # push:
-  #   branches: [ "main" ]
-  # pull_request:
-  #   branches: [ "main" ]
-
   # Allows to run this workflow from the Actions tab
   # Selet a tag to build a versioned docker release
   workflow_dispatch:
